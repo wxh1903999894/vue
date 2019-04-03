@@ -82,7 +82,7 @@
     </ul>
 
     <h1>
-      <router-link to="day01">跳转到hhhhhhhhhhellovue</router-link>
+      <router-link to="day01">跳转到HHHHHHHHHHellovue</router-link>
     </h1>
   </div>
 </template>
