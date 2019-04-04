@@ -1,0 +1,63 @@
+h2{
+    margin: 0;
+  }
+  li {
+    list-style: none
+  }
+  .disFlex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .padding{
+    padding: 20px;
+  }
+  
+  
+  ::-webkit-scrollbar
+  {
+    width: 10px;
+    height: 10px;
+    background-color: #F5F5F5;
+  }
+  
+  /*定义滚动条轨道 内阴影+圆角*/
+  ::-webkit-scrollbar-track
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+  }
+  
+  /*定义滑块 内阴影+圆角*/
+  ::-webkit-scrollbar-thumb
+  {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #ccc;
+  }
+
+  :root {
+    /*头部背景颜色  父级菜单颜色*/
+    --headerColor: #202d3d;
+    /*子集菜单颜色*/
+    --sonMenuColor: #2C3E50;
+    /*子集菜单选中颜色*/
+    --openSonMenuColor: #21598f;
+    /*子菜单选中字体颜色*/
+    --openSonFontColor: #fff;
+    /*字体颜色*/
+    --fontColor: #fff;
+    /*整体背景颜色  or  图片*/
+    --backgroundStyle: #2C3E50;
+    /*view背景颜色*/
+    --viewBackgroundStyle: rgba(255, 255, 255, 1);
+    /*选中子菜单自字体颜色*/
+    --openSonFontColor: #fff;
+    /*菜单悬浮时*/
+    --userBackgroundStyle: #2C3E50;
+    --userFontColor: #fff;
+  }
